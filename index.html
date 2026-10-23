@@ -244,6 +244,14 @@ footer.site .line{flex:1;min-width:60px;height:1px;background:var(--rule)}
 footer.site small{font-size:.8125rem;color:var(--muted)}
 footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
 
+/* institutions the founders have worked with: names in type, no logos */
+.inst{padding-block:88px 8px}
+.inst .label{margin-bottom:18px}
+.inst-list{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:10px 0;font-size:1.0625rem;line-height:1.5;color:var(--grafite);max-width:1040px}
+.inst-list li{white-space:nowrap}
+.inst-list li:not(:last-child)::after{content:"·";color:var(--ultramar);margin:0 14px}
+@media (max-width:620px){.inst-list{font-size:.9375rem}.inst-list li{white-space:normal}}
+
 .hdr-r{display:flex;align-items:center;gap:20px;flex:none}
 .lang{display:flex;gap:2px;font-size:.75rem;font-weight:600;letter-spacing:.08em}
 .lang a{color:var(--muted);text-decoration:none;padding:6px 6px;border-radius:6px}
@@ -366,6 +374,13 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
     </div>
   </section>
 
+  <section class="inst" aria-labelledby="inst-t">
+    <div class="wrap">
+      <p class="label" id="inst-t">The founders' experience includes work with</p>
+      <ul class="inst-list"><li>UNESCO</li><li>Inter-American Development Bank (FOMIN)</li><li>GIZ</li><li>British Embassy (Prosperity Fund)</li><li>Ministry of Development, Industry, Trade and Services (MDIC)</li><li>Ministry of Regional Development</li><li>Sebrae-SP</li><li>São Paulo City Hall</li><li>Mato Grosso do Sul State Department of Education</li><li>Embrapa</li><li>Port of Santos</li><li>Santos Technology Park</li><li>USP</li><li>Unesp</li><li>UNICAMP</li><li>IPT</li><li>FAPESP</li><li>FINEP</li><li>FIESP</li><li>ANPEI</li><li>Fundação Itaú</li><li>Wylinka</li><li>SISTME</li><li>Mesopartner</li></ul>
+    </div>
+  </section>
+
   <section class="block" id="approach" style="border-top:0">
     <div class="wrap">
       <div class="head">
@@ -407,7 +422,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
               <li>Evaluation of results and impacts of R&amp;D programmes at UNICAMP, including PROSAB (FINEP), published in Research Evaluation.</li>
               <li>Research on local innovation systems, clusters and the evaluation of R&amp;D programmes at UNICAMP.</li>
               <li>Member of the FAPESP and FINEP project on a science, technology and innovation strategy for São Paulo (2006 to 2009).</li>
-              <li>Thematic Study of Regional Economic Development in Latin America and the Caribbean, FOMIN/IDB (2013), as a SISTME specialist consultant.</li>
+              <li>Thematic Study of Regional Economic Development in Latin America and the Caribbean, FOMIN/IDB (2013), as a specialist consultant in the SISTME and Mesopartner consortium.</li>
               <li>Papers on local innovation systems and clusters at EUNIP conferences (2001 to 2003), the 15th TCI Global Conference (2012) and the Triple Helix Conference (2024).</li>
             </ul><p class="sub">Education</p><ul>
               <li>Economics, UNICAMP</li>
@@ -428,7 +443,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
             <details class="more-in"><summary><i class="plus"></i>More</summary><div class="in"><p class="sub">Selected experience</p><ul>
               <li>UNESCO, individual consultant (2026): methodology, fieldwork, analysis and final recommendations for the evaluation of a São Paulo municipal public innovation laboratory.</li>
               <li>Sebrae-SP, innovation projects specialist (2021 to 2026): local innovation ecosystems in ten territories, the São Paulo agricultural innovation corridor with Embrapa, APTA and universities, and the Barretos healthtech ecosystem.</li>
-              <li>Instituto Tellus, service designer (2014 to 2021): secondary-education public policy with Fundação Itaú in Mato Grosso do Sul, Paraíba and Amapá, including the training of 60 state network managers; ReDUS platform with GIZ; InovaJuntos public policy lab; Startup Outreach Brasil with MDIC and ApexBrasil.</li>
+              <li>Instituto Tellus, service designer (2014 to 2021): secondary-education public policy with Fundação Itaú in Mato Grosso do Sul, Paraíba and Amapá, including the training of 60 state network managers; ReDUS platform with GIZ; InovaJuntos public policy lab; the StartOut Brasil internationalisation programme with MDIC, ANPEI and the British Embassy.</li>
               <li>Earlier career in digital creative direction and advertising (Ogilvy, Leo Burnett, JWT, F/Nazca), including one of the first Brazilian internet banking projects, in 1999.</li>
               <li>Ongoing personal research on AI-enabled knowledge architectures for evidence organisation and decision support.</li>
             </ul><p class="sub">Education</p><ul>

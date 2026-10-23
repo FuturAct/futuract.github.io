@@ -244,6 +244,14 @@ footer.site .line{flex:1;min-width:60px;height:1px;background:var(--rule)}
 footer.site small{font-size:.8125rem;color:var(--muted)}
 footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
 
+/* institutions the founders have worked with: names in type, no logos */
+.inst{padding-block:88px 8px}
+.inst .label{margin-bottom:18px}
+.inst-list{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:10px 0;font-size:1.0625rem;line-height:1.5;color:var(--grafite);max-width:1040px}
+.inst-list li{white-space:nowrap}
+.inst-list li:not(:last-child)::after{content:"·";color:var(--ultramar);margin:0 14px}
+@media (max-width:620px){.inst-list{font-size:.9375rem}.inst-list li{white-space:normal}}
+
 .hdr-r{display:flex;align-items:center;gap:20px;flex:none}
 .lang{display:flex;gap:2px;font-size:.75rem;font-weight:600;letter-spacing:.08em}
 .lang a{color:var(--muted);text-decoration:none;padding:6px 6px;border-radius:6px}
@@ -366,6 +374,13 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
     </div>
   </section>
 
+  <section class="inst" aria-labelledby="inst-t">
+    <div class="wrap">
+      <p class="label" id="inst-t">La experiencia de los fundadores incluye trabajos con</p>
+      <ul class="inst-list"><li>UNESCO</li><li>Banco Interamericano de Desarrollo (FOMIN)</li><li>GIZ</li><li>Embajada Británica (Prosperity Fund)</li><li>Ministerio de Desarrollo, Industria, Comercio y Servicios de Brasil (MDIC)</li><li>Ministerio de Desarrollo Regional de Brasil</li><li>Sebrae-SP</li><li>Municipalidad de São Paulo</li><li>Secretaría de Educación del Estado de Mato Grosso do Sul</li><li>Embrapa</li><li>Puerto de Santos</li><li>Parque Tecnológico de Santos</li><li>USP</li><li>Unesp</li><li>UNICAMP</li><li>IPT</li><li>FAPESP</li><li>FINEP</li><li>FIESP</li><li>ANPEI</li><li>Fundação Itaú</li><li>Wylinka</li><li>SISTME</li><li>Mesopartner</li></ul>
+    </div>
+  </section>
+
   <section class="block" id="approach" style="border-top:0">
     <div class="wrap">
       <div class="head">
@@ -407,7 +422,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
               <li>Evaluación de resultados e impactos de programas de I+D en la UNICAMP, incluido el PROSAB (FINEP), publicada en Research Evaluation.</li>
               <li>Investigación sobre sistemas locales de innovación, clusters y evaluación de programas de I+D en la UNICAMP.</li>
               <li>Integrante del proyecto FAPESP y FINEP sobre una estrategia de ciencia, tecnología e innovación para São Paulo (2006 a 2009).</li>
-              <li>Estudio Temático de Desarrollo Económico Regional en América Latina y el Caribe, FOMIN/BID (2013), como consultora especialista de SISTME.</li>
+              <li>Estudio Temático de Desarrollo Económico Regional en América Latina y el Caribe, FOMIN/BID (2013), como consultora especialista del consorcio SISTME y Mesopartner.</li>
               <li>Ponencias sobre sistemas locales de innovación y clusters en las conferencias EUNIP (2001 a 2003), la 15.ª TCI Global Conference (2012) y la Triple Helix Conference (2024).</li>
             </ul><p class="sub">Formación</p><ul>
               <li>Economía, UNICAMP</li>
@@ -428,7 +443,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
             <details class="more-in"><summary><i class="plus"></i>Más</summary><div class="in"><p class="sub">Experiencia seleccionada</p><ul>
               <li>UNESCO, consultor individual (2026): metodología, trabajo de campo, análisis y recomendaciones finales para la evaluación de un laboratorio municipal de innovación pública en São Paulo.</li>
               <li>Sebrae-SP, especialista en proyectos de innovación (2021 a 2026): ecosistemas locales de innovación en diez territorios, el corredor de innovación agropecuaria paulista con Embrapa, APTA y universidades, y el ecosistema healthtech de Barretos.</li>
-              <li>Instituto Tellus, diseñador de servicios (2014 a 2021): política pública de educación secundaria con la Fundação Itaú en Mato Grosso do Sul, Paraíba y Amapá, incluida la formación de 60 gestores de las redes estatales; plataforma ReDUS con la GIZ; laboratorio de políticas públicas InovaJuntos; Startup Outreach Brasil con el MDIC y ApexBrasil.</li>
+              <li>Instituto Tellus, diseñador de servicios (2014 a 2021): política pública de educación secundaria con la Fundação Itaú en Mato Grosso do Sul, Paraíba y Amapá, incluida la formación de 60 gestores de las redes estatales; plataforma ReDUS con la GIZ; laboratorio de políticas públicas InovaJuntos; programa de internacionalización StartOut Brasil con el MDIC, la ANPEI y la Embajada Británica.</li>
               <li>Trayectoria anterior en dirección creativa digital y publicidad (Ogilvy, Leo Burnett, JWT, F/Nazca), incluido uno de los primeros proyectos brasileños de banca por internet, en 1999.</li>
               <li>Investigación personal en curso sobre arquitecturas de conocimiento apoyadas en IA para la organización de evidencia y el apoyo a la toma de decisiones.</li>
             </ul><p class="sub">Formación</p><ul>

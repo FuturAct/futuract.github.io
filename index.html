@@ -3,25 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FuturAct</title>
 <meta name="description" content="FuturAct: systems, design and intelligence. We help organisations navigate complexity, strengthen institutional capabilities and turn knowledge into meaningful action.">
 <meta property="og:title" content="FuturAct">
 <meta property="og:description" content="Bringing the future into the present. Systems, design and intelligence for complex public and institutional challenges.">
 <meta property="og:url" content="https://futuract.co/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="FuturAct">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="es_LA">
 <meta property="og:image" content="https://futuract.co/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="FuturAct. Bringing the future into the present.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://futuract.co/">
+<link rel="alternate" hreflang="en" href="https://futuract.co/">
+<link rel="alternate" hreflang="pt-BR" href="https://futuract.co/pt/">
+<link rel="alternate" hreflang="es" href="https://futuract.co/es/">
+<link rel="alternate" hreflang="x-default" href="https://futuract.co/">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#1E24A2">
 <style>*{margin:0}html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>FuturAct</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap">
@@ -69,7 +76,7 @@ em.s{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-
 /* header */
 header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--branco);border-bottom:1px solid var(--rule)}
 header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:16px}
-header.site .brand{width:148px;flex:none}
+header.site .brand{width:176px;flex:none}
 nav.links{display:flex;gap:26px;font-size:.875rem;font-weight:500}
 nav.links a{text-decoration:none;color:var(--muted)}
 nav.links a:hover{color:var(--ultramar)}
@@ -229,10 +236,17 @@ details.more-in .in{padding-top:10px;font-size:var(--fs-small);color:var(--grafi
 
 footer.site{padding-block:40px;border-top:1px solid var(--rule)}
 footer.site .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:20px 40px}
-footer.site .brand{width:170px}
+footer.site .brand{width:120px;flex:none;--fu:#6B6D78;--ac:#A3A5B0}
 footer.site .line{flex:1;min-width:60px;height:1px;background:var(--rule)}
 footer.site small{font-size:.8125rem;color:var(--muted)}
 footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
+
+.hdr-r{display:flex;align-items:center;gap:20px;flex:none}
+.lang{display:flex;gap:2px;font-size:.75rem;font-weight:600;letter-spacing:.08em}
+.lang a{color:var(--muted);text-decoration:none;padding:6px 6px;border-radius:6px}
+.lang a:hover{color:var(--ultramar)}
+.lang a[aria-current]{color:var(--ultramar);box-shadow:inset 0 -2px 0 var(--ultramar);border-radius:0}
+@media (max-width:560px){header.site .hdr-r .btn{display:none}}
 </style>
 
 </head>
@@ -253,7 +267,8 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
       <a href="#approach">Approach</a>
       <a href="#founders">Founders</a>
     </nav>
-    <a class="btn btn-primary" href="#collaborate">Let's collaborate</a>
+    <div class="hdr-r"><nav class="lang" aria-label="Language"><a href="./" hreflang="en" lang="en" title="English" aria-current="true">EN</a><a href="pt/" hreflang="pt-BR" lang="pt-BR" title="Português">PT</a><a href="es/" hreflang="es" lang="es" title="Español">ES</a></nav>
+    <a class="btn btn-primary" href="#collaborate">Let's collaborate</a></div>
   </div>
 </header>
 
@@ -381,7 +396,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
             <h3>Maria Augusta Pimentel Miglino</h3>
             <p class="role">Innovation Policy · Productive Development · Programme Design &amp; Evaluation</p>
             <p>Maria Augusta is a senior expert in innovation and productive development, with nearly 30 years at the intersection of innovation systems, territorial development and science, technology and innovation policy. Her work spans the full cycle of public programmes: research and diagnosis, evaluation, programme design, implementation and governance.</p>
-            <p>Over 16 years at Sebrae-SP she designed and oversaw complex innovation programmes and managed the state deep-tech programmes Start IA, Start Bio and Start Deeptech.</p>
+            <p>Over 16 years at Sebrae-SP she worked on cluster development and competitiveness, designed and oversaw complex innovation programmes and managed the state deep-tech programmes Start IA, Start Bio and Start Deeptech.</p>
             <details class="more-in"><summary><i class="plus"></i>More</summary><div class="in"><p class="sub">Selected experience</p><ul>
               <li>State manager of the Sebrae for Startups deep-tech programmes Start IA, Start Bio and Start Deeptech, delivered with IPT and ecosystem partners.</li>
               <li>Coordinator of the Startups do Futuro award (2022 to 2023): 531 science-based startups mapped and 103 recognised as the most promising.</li>

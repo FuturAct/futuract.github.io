@@ -112,12 +112,12 @@ section.block{padding-block:clamp(56px,8vw,104px);border-top:1px solid var(--rul
 .prose{display:grid;gap:16px;max-width:62ch}
 .prose p{color:var(--muted)}
 
-/* knowledge / action */
+/* knowledge into action */
 .ka{padding-block:clamp(48px,7vw,88px)}
 .ka-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(24px,5vw,72px);align-items:center}
 .ka-pair{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 .3em;font-size:clamp(2.4rem,6.4vw,5.6rem);font-weight:600;letter-spacing:-.04em;line-height:1}
 .ka-pair .k{color:var(--grafite)}
-.ka-pair .sl{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--route-alt)}
+.ka-pair .sl{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:0;font-size:.62em;color:var(--route-alt);padding:0 .1em}
 .ka-pair .a{color:var(--ultramar)}
 .ka-text{display:grid;gap:14px;max-width:46ch}
 .ka-text p:not(.label){color:var(--muted)}
@@ -172,6 +172,8 @@ section.block{padding-block:clamp(56px,8vw,104px);border-top:1px solid var(--rul
 .dark .label{color:var(--on-dark-muted)}
 .dark .head p,.dark .prose p{color:var(--on-dark-muted)}
 .dark .fan{pointer-events:none}
+.dark .tex{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;user-select:none}
+.dark>.wrap{position:relative;z-index:1}
 .dark > .wrap{position:relative}
 .band{padding-block:clamp(80px,12vw,160px)}
 .dark{clip-path:polygon(0 7vw,100% 0,100% calc(100% - 7vw),0 100%);margin-block:-3.5vw}
@@ -299,16 +301,17 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
   </section>
 
   <figure class="field">
-    <img class="hero-img" src="/hero.jpg" srcset="/hero-960.jpg 960w, /hero.jpg 1672w" sizes="100vw" width="1672" height="941" alt="Futures taking shape: bands of colour spiral out from a single point and open into many directions" fetchpriority="high">
+    <img class="hero-img" id="hero-img" sizes="100vw" width="1672" height="941" alt="Futures taking shape: bands of colour spiral out from a single point and open into many directions" fetchpriority="high">
+    <script>(function(){var L=[["hero/hero-1.jpg", "hero/hero-1-960.jpg"], ["hero/hero-2.jpg", "hero/hero-2-960.jpg"], ["hero/hero-3.jpg", "hero/hero-3-960.jpg"], ["hero/hero-4.jpg", "hero/hero-4-960.jpg"], ["hero/hero-5.jpg", "hero/hero-5-960.jpg"], ["hero/hero-6.jpg", "hero/hero-6-960.jpg"]],p=L[Math.floor(Math.random()*L.length)],i=document.getElementById('hero-img');if(p[1]!==p[0])i.srcset=p[1]+' 960w, '+p[0]+' 1672w';i.src=p[0]})()</script>
   </figure>
   <div class="wrap field-caption">
     <p class="label">Perspective</p>
     <p>From where an institution stands, many futures open. We turn knowledge into agency: the capacity to choose one of them and give it body.</p>
   </div>
 
-  <section class="ka" aria-label="Knowledge to action">
+  <section class="ka" aria-label="Knowledge into action">
     <div class="wrap ka-grid">
-      <p class="ka-pair"><span class="k">Knowledge</span><span class="sl" aria-hidden="true">/</span><span class="a">Action</span></p>
+      <p class="ka-pair"><span class="k">Knowledge</span><span class="sl">into</span><span class="a">Action</span></p>
       <div class="ka-text">
         <p class="label">Agency</p>
         <p>Institutions rarely lack information. What they often lack is agency: the capacity to turn what they know into decisions and coordinated action. Building that capacity, inside the institution, is the purpose of our work.</p>
@@ -356,7 +359,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
   </section>
 
   <section class="dark" id="experience">
-    <canvas class="fan" data-mode="dark" aria-hidden="true"></canvas>
+    <img class="tex" src="tex/dobra-02.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
     <div class="wrap band">
       <div class="head">
         <p class="label">Experience behind our practice</p>
@@ -459,7 +462,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
   </section>
 
   <section class="dark" id="collaborate">
-    <canvas class="fan" data-mode="dark" aria-hidden="true"></canvas>
+    <img class="tex" src="tex/dobra-04.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
     <div class="wrap band collab">
       <div class="collab-grid">
         <div>
@@ -493,7 +496,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
     <span class="brand"><svg class="logo" viewBox="0 0 751.64 101.34" role="img" aria-label="FuturAct"><use href="#fa-solid"/></svg></span>
     <small>Bringing the future into the present.</small>
     <span class="line" aria-hidden="true"></span>
-    <span class="spaced">Knowledge / Action</span>
+    <span class="spaced">Knowledge into Action</span>
   </div>
 </footer>
 

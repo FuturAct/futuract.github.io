@@ -172,7 +172,13 @@ section.block{padding-block:clamp(56px,8vw,104px);border-top:1px solid var(--rul
 .dark .label{color:var(--on-dark-muted)}
 .dark .head p,.dark .prose p{color:var(--on-dark-muted)}
 .dark .fan{pointer-events:none}
-.dark .tex{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;user-select:none}
+.dark .tex{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 50%;opacity:.75;pointer-events:none;user-select:none;-webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.35) 35%,#000 75%);mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.35) 35%,#000 75%)}
+/* fios: section illustrations */
+.head-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:clamp(24px,4vw,64px);align-items:center;margin-bottom:clamp(32px,5vw,56px)}
+.head-row .head{margin-bottom:0}
+.fio{margin:0;aspect-ratio:16/9;min-width:0}
+.fio img{width:100%;height:100%;object-fit:contain;display:block;-webkit-mask-image:radial-gradient(ellipse 70% 70% at 50% 50%,#000 55%,transparent 100%);mask-image:radial-gradient(ellipse 70% 70% at 50% 50%,#000 55%,transparent 100%)}
+@media (max-width:860px){.head-row{grid-template-columns:1fr}.head-row .fio{order:-1;max-width:560px}}
 .dark>.wrap{position:relative;z-index:1}
 .dark > .wrap{position:relative}
 .band{padding-block:clamp(80px,12vw,160px)}
@@ -302,7 +308,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
 
   <figure class="field">
     <img class="hero-img" id="hero-img" sizes="100vw" width="1672" height="941" alt="Futuros que toman forma: franjas de color salen en espiral desde un solo punto y se abren en muchas direcciones" fetchpriority="high">
-    <script>(function(){var L=[["../hero/hero-1.jpg", "../hero/hero-1-960.jpg"], ["../hero/hero-2.jpg", "../hero/hero-2-960.jpg"], ["../hero/hero-3.jpg", "../hero/hero-3-960.jpg"], ["../hero/hero-4.jpg", "../hero/hero-4-960.jpg"], ["../hero/hero-5.jpg", "../hero/hero-5-960.jpg"], ["../hero/hero-6.jpg", "../hero/hero-6-960.jpg"]],p=L[Math.floor(Math.random()*L.length)],i=document.getElementById('hero-img');if(p[1]!==p[0])i.srcset=p[1]+' 960w, '+p[0]+' 1672w';i.src=p[0]})()</script>
+    <script>(function(){var L=[["../hero/hero-1.jpg", "../hero/hero-1-960.jpg"], ["../hero/hero-2.jpg", "../hero/hero-2-960.jpg"], ["../hero/hero-3.jpg", "../hero/hero-3-960.jpg"], ["../hero/hero-4.jpg", "../hero/hero-4-960.jpg"], ["../hero/hero-5.jpg", "../hero/hero-5-960.jpg"], ["../hero/hero-6.jpg", "../hero/hero-6-960.jpg"], ["../hero/hero-7.jpg", "../hero/hero-7-960.jpg"], ["../hero/hero-8.jpg", "../hero/hero-8-960.jpg"]];if(window.innerWidth<720)L=L.concat([["../hero/hero-m1.jpg", "../hero/hero-m1.jpg"]]);var p=L[Math.floor(Math.random()*L.length)],i=document.getElementById('hero-img');if(p[1]!==p[0])i.srcset=p[1]+' 960w, '+p[0]+' 1672w';i.src=p[0]})()</script>
   </figure>
   <div class="wrap field-caption">
     <p class="label">Perspectiva</p>
@@ -359,7 +365,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
   </section>
 
   <section class="dark" id="experience">
-    <img class="tex" src="../tex/dobra-02.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img class="tex" src="../art/fio-experiencia.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
     <div class="wrap band">
       <div class="head">
         <p class="label">La experiencia detrás de nuestra práctica</p>
@@ -386,10 +392,13 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
 
   <section class="block" id="approach" style="border-top:0">
     <div class="wrap">
-      <div class="head">
+      <div class="head-row">
+        <div class="head">
         <p class="label">Nuestro enfoque</p>
         <h2>Comprender la complejidad. Diseñar posibilidades. Habilitar la acción.</h2>
         <p>Creemos que la transformación significativa surge de la interacción entre conocimiento, personas, instituciones y experimentación práctica. Nuestro enfoque combina cuatro movimientos que convierten el conocimiento en agencia, revisados a medida que avanza el trabajo.</p>
+      </div>
+        <figure class="fio" aria-hidden="true"><img src="../art/fio-abordagem.webp" alt="" width="1120" height="629" loading="lazy" decoding="async"></figure>
       </div>
       <div class="waypoints">
         <div class="wp"><h3>Pensamiento sistémico</h3><p>Comprender contextos, relaciones y dinámicas subyacentes.</p>
@@ -406,9 +415,12 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
 
   <section class="block" id="founders">
     <div class="wrap">
-      <div class="head">
+      <div class="head-row">
+        <div class="head">
         <p class="label">Los fundadores</p>
         <h2>Competencias complementarias. Perspectivas integradas.</h2>
+      </div>
+        <figure class="fio" aria-hidden="true"><img src="../art/fio-fundadores.webp" alt="" width="1120" height="629" loading="lazy" decoding="async"></figure>
       </div>
       <div class="founders">
         <article class="founder">
@@ -462,7 +474,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
   </section>
 
   <section class="dark" id="collaborate">
-    <img class="tex" src="../tex/dobra-04.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <img class="tex" src="../art/fio-colaboracao.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
     <div class="wrap band collab">
       <div class="collab-grid">
         <div>
@@ -481,7 +493,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
           <strong>TCI Global Conference 2026<br>Córdoba, Argentina</strong>
           <div class="actions">
             <a class="btn btn-primary" href="mailto:hello@futuract.co">Contáctenos</a>
-            <a class="btn btn-line" href="#collaborate">Conéctese en LinkedIn</a>
+            <a class="btn btn-line" href="https://www.linkedin.com/company/145370899" target="_blank" rel="noopener">Síganos en LinkedIn</a>
           </div>
           <p class="mail">hello@futuract.co</p>
           <p class="based">Con base en Brasil. Actuación internacional.</p>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://futuract.co/</loc><lastmod>2026-10-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://futuract.co/"/>
+  <url><loc>https://futuract.co/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://futuract.co/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://futuract.co/en/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://futuract.co/pt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://futuract.co/es/"/>
   </url>
-  <url><loc>https://futuract.co/pt/</loc><lastmod>2026-10-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://futuract.co/"/>
+  <url><loc>https://futuract.co/en/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://futuract.co/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://futuract.co/en/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://futuract.co/pt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://futuract.co/es/"/>
   </url>
-  <url><loc>https://futuract.co/es/</loc><lastmod>2026-10-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://futuract.co/"/>
+  <url><loc>https://futuract.co/pt/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://futuract.co/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://futuract.co/en/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://futuract.co/pt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://futuract.co/es/"/>
   </url>
 </urlset>

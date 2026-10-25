@@ -4,24 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>FuturAct</title>
-<meta name="description" content="FuturAct: sistemas, design e inteligência. Ajudamos organizações a navegar a complexidade, fortalecer capacidades institucionais e transformar conhecimento em ação significativa.">
+<meta name="description" content="FuturAct: conhecimento em ação. Ajudamos agências de inovação, organizações de cluster e instituições públicas e de desenvolvimento a transformar estratégia em programas que funcionam.">
 <meta property="og:title" content="FuturAct">
 <meta property="og:description" content="Trazer o futuro para o presente. Sistemas, design e inteligência para desafios públicos e institucionais complexos.">
 <meta property="og:url" content="https://futuract.co/pt/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="FuturAct">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:locale:alternate" content="en_US">
 <meta property="og:locale:alternate" content="es_LA">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:image" content="https://futuract.co/og-image-pt.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="FuturAct. Trazer o futuro para o presente.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://futuract.co/pt/">
-<link rel="alternate" hreflang="en" href="https://futuract.co/">
+<link rel="alternate" hreflang="es" href="https://futuract.co/">
+<link rel="alternate" hreflang="en" href="https://futuract.co/en/">
 <link rel="alternate" hreflang="pt-BR" href="https://futuract.co/pt/">
-<link rel="alternate" hreflang="es" href="https://futuract.co/es/">
 <link rel="alternate" hreflang="x-default" href="https://futuract.co/">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -173,6 +173,25 @@ section.block{padding-block:clamp(56px,8vw,104px);border-top:1px solid var(--rul
 .dark .head p,.dark .prose p{color:var(--on-dark-muted)}
 .dark .fan{pointer-events:none}
 .dark .tex{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 50%;opacity:.75;pointer-events:none;user-select:none;-webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.35) 35%,#000 75%);mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.35) 35%,#000 75%)}
+.ka-stmt{font-size:clamp(1.9rem,3.9vw,3.3rem);font-weight:600;letter-spacing:-.03em;line-height:1.08;color:var(--grafite);max-width:20ch}
+.ka-stmt em.s{color:var(--ultramar)}
+.field-caption strong.mf{font-weight:600;color:var(--grafite)}
+.wp .get{margin-top:4px;padding-top:10px;border-top:1px solid var(--rule);font-size:var(--fs-small);color:var(--grafite)}
+.wp .get b{font-weight:600;color:var(--ultramar);margin-right:4px}
+.for-cl{margin-top:clamp(40px,5vw,64px);padding:clamp(22px,3vw,32px);background:var(--nevoa);border-radius:var(--radius)}
+.for-cl ul{list-style:none;padding:0;margin:14px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 36px}
+.for-cl li{position:relative;padding-left:20px}
+.for-cl li::before{content:"";position:absolute;left:0;top:.72em;width:10px;height:2px;background:var(--ultramar)}
+.cases{margin-top:clamp(40px,5vw,56px)}
+.case-list{list-style:none;padding:0;margin:14px 0 0;display:grid;align-items:start;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(24px,4vw,56px)}
+.case-list li{display:grid;align-content:start;gap:6px;padding:20px 0;border-top:1px solid var(--rule-dark)}
+.case-list b{font-weight:600;color:var(--on-dark)}
+.case-list span{font-size:var(--fs-small);color:var(--on-dark-muted)}
+@media (max-width:720px){.for-cl ul,.case-list{grid-template-columns:1fr}}
+.case-note{margin-top:8px;font-size:var(--fs-small);color:var(--on-dark-muted)}
+.case-list details.more-in{border-top:0;padding-top:2px;margin-top:2px}
+.dark details.more-in summary{color:var(--on-dark-muted)}
+.dark details.more-in .in{color:var(--on-dark-muted)}
 /* fios: section illustrations */
 .head-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:clamp(24px,4vw,64px);align-items:center;margin-bottom:clamp(32px,5vw,56px)}
 .head-row .head{margin-bottom:0}
@@ -283,10 +302,10 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
       <a href="#who">Quem somos</a>
       <a href="#expertise">Especialidades</a>
       <a href="#experience">Experiência</a>
-      <a href="#approach">Abordagem</a>
+      <a href="#approach">Como trabalhamos</a>
       <a href="#founders">Fundadores</a>
     </nav>
-    <div class="hdr-r"><nav class="lang" aria-label="Idioma"><a href="../" hreflang="en" lang="en" title="English">EN</a><a href="../pt/" hreflang="pt-BR" lang="pt-BR" title="Português" aria-current="true">PT</a><a href="../es/" hreflang="es" lang="es" title="Español">ES</a></nav>
+    <div class="hdr-r"><nav class="lang" aria-label="Idioma"><a href="../" hreflang="es" lang="es" title="Español">ES</a><a href="../en/" hreflang="en" lang="en" title="English">EN</a><a href="../pt/" hreflang="pt-BR" lang="pt-BR" title="Português" aria-current="true">PT</a></nav>
     <a class="btn btn-primary" href="#collaborate">Vamos colaborar</a></div>
   </div>
 </header>
@@ -295,12 +314,12 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
   <section class="hero">
     <div class="wrap hero-grid">
       <div style="display:grid;gap:24px;min-width:0">
-        <p class="label">Sistemas · Design · Inteligência</p>
-        <h1>Trazer o futuro para o <em class="s">presente.</em></h1>
+        <p class="label">Sistemas de inovação · Clusters · Desenho de programas · Avaliação</p>
+        <h1>Conhecimento <em class="s">em</em> Ação.</h1>
       </div>
       <div class="lede">
-        <strong>Fazer sistemas complexos funcionarem melhor.</strong>
-        <p>Reunimos experiência em sistemas de inovação, estratégia, design e inteligência aplicada para ajudar organizações a navegar a complexidade, fortalecer capacidades institucionais e transformar conhecimento em ação significativa.</p>
+        <strong>Da estratégia a programas que saem do papel.</strong>
+        <p>Ajudamos agências de inovação, organizações de cluster e instituições públicas e de desenvolvimento a transformar conhecimento e estratégia em programas que funcionam, combinando experiência em política de inovação e clusters com design estratégico e de serviços e avaliação.</p>
         <div class="ctas"><a class="btn btn-primary" href="#collaborate">Vamos colaborar</a><a class="btn btn-line" href="#expertise">Nossas especialidades</a></div>
       </div>
     </div>
@@ -312,12 +331,12 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
   </figure>
   <div class="wrap field-caption">
     <p class="label">Perspectiva</p>
-    <p>Do ponto onde uma instituição está, muitos futuros se abrem. Transformamos conhecimento em agência: a capacidade de escolher um deles e lhe dar corpo.</p>
+    <p><strong class="mf">Trazer o futuro para o presente.</strong> Do ponto onde uma instituição está, muitos futuros se abrem. Transformamos conhecimento em agência: a capacidade de escolher um deles e lhe dar corpo.</p>
   </div>
 
   <section class="ka" aria-label="Conhecimento em ação">
     <div class="wrap ka-grid">
-      <p class="ka-pair"><span class="k">Conhecimento</span><span class="sl">em</span><span class="a">Ação</span></p>
+      <p class="ka-stmt">Estratégias raramente falham no diagnóstico. Falham na passagem para a <em class="s">ação.</em></p>
       <div class="ka-text">
         <p class="label">Agência</p>
         <p>Instituições raramente carecem de informação. O que muitas vezes lhes falta é agência: a capacidade de transformar o que sabem em decisões e ação coordenada. Construir essa capacidade, dentro da instituição, é o propósito do nosso trabalho.</p>
@@ -333,10 +352,10 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
           <h2>Perspectivas diferentes. Propósito compartilhado.</h2>
         </div>
         <div class="who-text">
-          <p>A FuturAct é uma consultoria independente fundada no Brasil, com olhar internacional.</p>
+          <p>A FuturAct é uma consultoria fundada no Brasil, com atuação internacional.</p>
           <p>Combinamos ampla experiência em política de inovação, desenvolvimento produtivo, design estratégico, transformação institucional e pesquisa aplicada.</p>
-          <p>Nosso trabalho conecta pensamento estratégico e implementação prática, reunindo diferentes disciplinas, instituições e perspectivas para enfrentar desafios complexos.</p>
-          <p>Atuamos de forma independente e em parcerias, contribuindo com projetos de diferentes escalas e durações.</p>
+          <p>O que nos diferencia: unimos a compreensão de economistas sobre sistemas de inovação e clusters à prática de designers em fazer programas funcionarem na ponta, da estratégia à identidade, à comunicação e às interfaces digitais que fazem as pessoas usá-los.</p>
+          <p>Trabalhamos diretamente com instituições e em consórcios com organizações parceiras, em projetos de diferentes escalas e durações.</p>
         </div>
       </div>
       <aside class="essence">
@@ -355,7 +374,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
       </div>
       <div class="exp-grid">
         <button class="card" type="button" data-x="0"><h3>Sistemas de Inovação e Desenvolvimento Produtivo</h3><p>Política de inovação, desenvolvimento territorial, competitividade de clusters, empreendedorismo de base científica, deep tech e ecossistemas de inovação.</p><span class="more"><i class="plus"></i>Explorar</span></button>
-        <button class="card" type="button" data-x="1"><h3>Estratégia, Desenho de Programas e Serviços</h3><p>Planejamento estratégico, arquitetura de programas, design de serviços, transformação institucional, governança e implementação.</p><span class="more"><i class="plus"></i>Explorar</span></button>
+        <button class="card" type="button" data-x="1"><h3>Estratégia, Desenho de Programas e Serviços</h3><p>Planejamento estratégico, arquitetura de programas, design de serviços, identidade e comunicação de programas, design de plataformas digitais fáceis de usar (UX/UI), transformação institucional, governança e implementação.</p><span class="more"><i class="plus"></i>Explorar</span></button>
         <button class="card" type="button" data-x="2"><h3>Pesquisa, Avaliação e Inteligência</h3><p>Pesquisa aplicada, diagnósticos institucionais, avaliação de programas, síntese de evidências e apoio à decisão.</p><span class="more"><i class="plus"></i>Explorar</span></button>
         <button class="card" type="button" data-x="3"><h3>Desenvolvimento Institucional e Governança</h3><p>Parcerias institucionais, coordenação de programas, capacidades organizacionais e governança colaborativa.</p><span class="more"><i class="plus"></i>Explorar</span></button>
         <button class="card" type="button" data-x="4"><h3>Aprendizagem e Desenvolvimento do Conhecimento</h3><p>Academias de aprendizagem institucional sob medida, desenvolvimento profissional contínuo, curadoria de conhecimento e capacitação.</p><span class="more"><i class="plus"></i>Explorar</span></button>
@@ -377,8 +396,9 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
         <li><h3>Aprendizagem Institucional e Capacitação</h3><p>Desenho e coordenação de iniciativas de desenvolvimento profissional para gestores de ecossistemas de inovação, lideranças institucionais e profissionais do setor público.</p></li>
         <li><h3>Desenvolvimento Territorial e Ecossistemas de Inovação</h3><p>Experiência em competitividade de clusters, inovação territorial, colaboração institucional e desenvolvimento de ecossistemas locais de inovação.</p></li>
         <li><h3>Serviço Público e Design Estratégico</h3><p>Pesquisa centrada nas pessoas, metodologias colaborativas, design de serviços e inovação em contextos públicos e institucionais.</p></li>
-        <li><h3>Sistemas de Conhecimento e Inteligência Aplicada</h3><p>Desenvolvimento de metodologias e de abordagens emergentes apoiadas por IA para organizar conhecimento, recuperar evidências e apoiar a tomada de decisão institucional.</p></li>
+        <li><h3>Sistemas de Conhecimento e Inteligência Aplicada</h3><p>Desenvolvimento de métodos próprios que combinam pesquisa qualitativa e ferramentas apoiadas por IA para organizar o conhecimento institucional, recuperar evidências e apoiar a tomada de decisão.</p></li>
       </ul>
+      <div class="cases"><p class="label">Trabalhos selecionados da trajetória anterior dos fundadores</p><p class="case-note">Realizados por cada fundador em funções anteriores, antes da FuturAct.</p><ul class="case-list"><li><b>Ecossistemas locais de inovação em dez territórios do estado de São Paulo</b><span>Leandro Pasini no Sebrae-SP, 2022 a 2024</span><details class="more-in"><summary><i class="plus"></i>Leia mais</summary><div class="in"><p>Concebido e conduzido por Leandro: metodologia, liderança do projeto e facilitação das oficinas. No ABC, Alto Tietê, Araçatuba, Barretos, Piracicaba, Ribeirão Preto, Santos, São José dos Campos, São José do Rio Preto e Sorocaba, empresas, startups, universidades, poder público e instituições de apoio passaram da atuação fragmentada a uma agenda comum, em quatro momentos: engajamento, diagnóstico, cocriação e implementação. O trabalho gerou um diagnóstico por território, uma leitura comparada dos dez ecossistemas e roteiros por horizonte, de ganhos rápidos a três anos.</p></div></details></li><li><b>Programas estaduais de deep tech Start IA, Start Bio e Start Deeptech</b><span>Maria Augusta Pimentel Miglino no Sebrae-SP</span><details class="more-in"><summary><i class="plus"></i>Leia mais</summary><div class="in"><p>Maria Augusta fez a gestão estadual dos programas do Sebrae-SP para startups de base científica, realizados com o IPT e parceiros do ecossistema. Também coordenou o prêmio Startups do Futuro (2022 a 2023), que mapeou 531 startups de base científica e reconheceu 103 como as mais promissoras.</p></div></details></li><li><b>Avaliação dos programas do laboratório de inovação pública da Prefeitura de São Paulo</b><span>Leandro Pasini para a UNESCO, 2026</span><details class="more-in"><summary><i class="plus"></i>Leia mais</summary><div class="in"><p>Avaliação dos efeitos dos cinco programas do laboratório de inovação pública da Prefeitura de São Paulo, contratada pela UNESCO. Combinando avaliação realista e análise de contribuição, reconstruiu como cada programa produz efeitos, para quem e em que contexto, em quatro produtos: plano metodológico, análise por programa, mapa da jornada e relatório final.</p></div></details></li><li><b>Desenvolvimento econômico regional na América Latina e no Caribe</b><span>Maria Augusta Pimentel Miglino para o FOMIN/BID, 2013</span><details class="more-in"><summary><i class="plus"></i>Leia mais</summary><div class="in"><p>Maria Augusta participou como consultora especialista do consórcio SISTME e Mesopartner, que realizou o estudo temático do FOMIN/BID sobre desenvolvimento econômico regional na América Latina e no Caribe.</p></div></details></li></ul></div>
     </div>
   </section>
 
@@ -393,22 +413,19 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
     <div class="wrap">
       <div class="head-row">
         <div class="head">
-        <p class="label">Nossa abordagem</p>
+        <p class="label">Como trabalhamos</p>
         <h2>Compreender a complexidade. Desenhar possibilidades. Viabilizar a ação.</h2>
-        <p>Acreditamos que a transformação significativa emerge da interação entre conhecimento, pessoas, instituições e experimentação prática. Nossa abordagem combina quatro movimentos que transformam conhecimento em agência, revisitados à medida que o trabalho avança.</p>
+        <p>Quatro etapas, da primeira conversa às capacidades que permanecem na instituição. Cada uma termina com algo concreto nas suas mãos.</p>
       </div>
         <figure class="fio" aria-hidden="true"><img src="../art/fio-abordagem.webp" alt="" width="1120" height="629" loading="lazy" decoding="async"></figure>
       </div>
       <div class="waypoints">
-        <div class="wp"><h3>Pensamento sistêmico</h3><p>Compreender contextos, relações e dinâmicas subjacentes.</p>
-          <details class="more-in"><summary><i class="plus"></i>Na prática</summary><div class="in"><p>Mapeamos atores, fluxos de recursos e de informação e incentivos antes de propor qualquer coisa, para que o trabalho atue sobre causas, e não sobre sintomas.</p></div></details></div>
-        <div class="wp"><h3>Design estratégico</h3><p>Traduzir desafios em programas, serviços e soluções acionáveis.</p>
-          <details class="more-in"><summary><i class="plus"></i>Na prática</summary><div class="in"><p>Desenhamos com as pessoas que vão operar e usar um programa, e testamos ideias por meio de protótipos e pilotos antes de comprometer recursos com a escala.</p></div></details></div>
-        <div class="wp"><h3>Inteligência aplicada</h3><p>Conectar pesquisa, evidências e conhecimento à tomada de decisão.</p>
-          <details class="more-in"><summary><i class="plus"></i>Na prática</summary><div class="in"><p>Levamos evidências aos momentos em que as decisões são tomadas, em formatos que as equipes realmente conseguem usar: sínteses, painéis de aprendizagem, bases de conhecimento estruturadas.</p></div></details></div>
-        <div class="wp"><h3>Implementação e aprendizagem</h3><p>Apoiar a ação coordenada, a adaptação e capacidades institucionais duradouras.</p>
-          <details class="more-in"><summary><i class="plus"></i>Na prática</summary><div class="in"><p>Trabalhamos lado a lado com as equipes durante a implementação, ajustamos o percurso à medida que os resultados chegam e garantimos que as capacidades permaneçam na instituição quando o projeto termina.</p></div></details></div>
+        <div class="wp"><h3>Engajar e diagnosticar</h3><p>Mapear atores, capacidades e gargalos com as pessoas envolvidas.</p><p class="get"><b>Você recebe</b> um diagnóstico compartilhado e prioridades claras.</p></div>
+        <div class="wp"><h3>Cocriar</h3><p>Traduzir a estratégia em arquitetura de programa, serviços e governança, desenhados com quem vai operá-los.</p><p class="get"><b>Você recebe</b> desenho do programa, blueprints de serviço e modelo de governança.</p></div>
+        <div class="wp"><h3>Testar e implementar</h3><p>Testar antes de escalar e trabalhar ao lado das equipes, dando ao programa identidade, comunicação e canais digitais que as pessoas realmente usam.</p><p class="get"><b>Você recebe</b> pilotos testados, a identidade e o lançamento do programa e um roteiro por horizonte.</p></div>
+        <div class="wp"><h3>Avaliar e aprender</h3><p>Avaliação realista e análise de contribuição: o que funciona, para quem e por quê.</p><p class="get"><b>Você recebe</b> evidência para decidir e capacidades que permanecem na instituição.</p></div>
       </div>
+      <div class="for-cl"><p class="label">Para organizações de cluster e agências de inovação, isso costuma significar</p><ul><li>Transformar o roteiro do cluster em projetos e serviços que os associados realmente usam.</li><li>Desenhar serviços de apoio para associados e startups.</li><li>Dar a clusters e programas identidade, comunicação e canais digitais com os quais os associados se engajam.</li><li>Avaliar programas de clusters e de inovação.</li><li>Desenvolver as capacidades de gestores de cluster e equipes de programa.</li></ul></div>
     </div>
   </section>
 
@@ -428,7 +445,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
             <h3>Maria Augusta Pimentel Miglino</h3>
             <p class="role">Política de Inovação · Desenvolvimento Produtivo · Desenho e Avaliação de Programas</p>
             <p>Maria Augusta é especialista sênior em inovação e desenvolvimento produtivo, com quase 30 anos de atuação na interseção entre sistemas de inovação, desenvolvimento territorial e política de ciência, tecnologia e inovação. Seu trabalho abrange o ciclo completo dos programas públicos: pesquisa e diagnóstico, avaliação, desenho de programas, implementação e governança.</p>
-            <p>Em 16 anos no Sebrae-SP, atuou com desenvolvimento de clusters e competitividade, desenhou e supervisionou programas complexos de inovação e fez a gestão estadual dos programas de deep tech Start IA, Start Bio e Start Deeptech.</p>
+            <p>Em 16 anos no Sebrae-SP, atuou com desenvolvimento de clusters e competitividade, desenhou e supervisionou programas complexos de inovação e fez a gestão estadual dos programas de deep tech Start IA, Start Bio e Start Deeptech. Apresentou pesquisa sobre clusters na 15ª TCI Global Conference (2012).</p>
             <details class="more-in"><summary><i class="plus"></i>Mais</summary><div class="in"><p class="sub">Experiência selecionada</p><ul>
               <li>Gestora estadual dos programas de deep tech do Sebrae for Startups, Start IA, Start Bio e Start Deeptech, realizados com o IPT e parceiros do ecossistema.</li>
               <li>Coordenadora do prêmio Startups do Futuro (2022 a 2023): 531 startups de base científica mapeadas e 103 reconhecidas como as mais promissoras.</li>
@@ -452,8 +469,8 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
           <div class="txt">
             <h3>Leandro Pasini</h3>
             <p class="role">Design Estratégico e de Serviços · Inovação Pública · Avaliação</p>
-            <p>Leandro é designer estratégico e de serviços, com atuação em inovação pública e capacidade institucional. Há mais de 20 anos transforma problemas complexos em programas, serviços e arranjos de governança, combinando pensamento sistêmico, pesquisa qualitativa e facilitação colaborativa junto a instituições públicas, fundações e redes territoriais.</p>
-            <p>Concebeu e facilitou uma iniciativa de ecossistemas locais de inovação em dez territórios do estado de São Paulo, codesenvolveu a metodologia Design Doing e, em 2026, conduziu uma avaliação para a UNESCO.</p>
+            <p>Leandro é designer estratégico e de serviços, com atuação em inovação pública e capacidade institucional. Depois de uma carreira em comunicação e design, desde 2014 transforma problemas complexos em programas, serviços e arranjos de governança, combinando pensamento sistêmico, pesquisa qualitativa e facilitação colaborativa junto a instituições públicas, fundações e redes territoriais.</p>
+            <p>Concebeu e facilitou uma iniciativa de ecossistemas locais de inovação em dez territórios do estado de São Paulo, codesenvolveu a metodologia Design Doing e, em 2026, avaliou para a UNESCO os programas do laboratório de inovação pública da Prefeitura de São Paulo.</p>
             <details class="more-in"><summary><i class="plus"></i>Mais</summary><div class="in"><p class="sub">Experiência selecionada</p><ul>
               <li>UNESCO, consultor individual (2026): metodologia, trabalho de campo, análise e recomendações finais para a avaliação de um laboratório municipal de inovação pública em São Paulo.</li>
               <li>Sebrae-SP, especialista em projetos de inovação (2021 a 2026): ecossistemas locais de inovação em dez territórios, o corredor de inovação agropecuária paulista com Embrapa, APTA e universidades, e o ecossistema de healthtech de Barretos.</li>
@@ -519,7 +536,7 @@ footer.site .spaced{letter-spacing:.2em;font-size:.75rem}
 </aside>
 
 <script>
-const X=[{"t": "Sistemas de Inovação e Desenvolvimento Produtivo", "l": "A inovação acontece em sistemas: empresas, universidades, governos e investidores que precisam se conectar. Ajudamos instituições a enxergar o sistema do qual fazem parte e a agir sobre seus elos mais frágeis.", "q": ["Quais conexões deste ecossistema estão ausentes ou frágeis?", "Onde empreendimentos de base científica podem encontrar um caminho até o mercado?", "O que uma estratégia de cluster deve priorizar nos próximos três anos?"], "d": ["Diagnósticos de ecossistemas e clusters", "Desenho de programas para empreendedorismo de base científica e deep tech", "Estratégias de competitividade de clusters", "Assessoria em políticas para agências de inovação e organizações de desenvolvimento"]}, {"t": "Estratégia, Desenho de Programas e Serviços", "l": "Boas políticas emperram quando o programa ao redor delas é difícil de usar. Desenhamos programas e serviços a partir da experiência de quem os opera e de quem é atendido por eles.", "q": ["Como transformar um objetivo de política em um programa que funcione na ponta?", "Em que ponto o serviço atual perde as pessoas?", "Quem precisa decidir o quê, e quando?"], "d": ["Arquitetura de programas e teoria da mudança", "Blueprints de serviço e jornadas de usuário", "Planos de governança e implementação", "Protótipos e pilotos antes da escala"]}, {"t": "Pesquisa, Avaliação e Inteligência", "l": "Decisões melhoram quando as evidências chegam a tempo e em formato utilizável. Combinamos pesquisa de campo e síntese de evidências para mostrar o que está funcionando, para quem e por quê.", "q": ["O que este programa está de fato mudando?", "Quais resultados vêm do programa e quais vêm do seu contexto?", "O que deve mudar no próximo ciclo?"], "d": ["Avaliações qualitativas e de métodos mistos", "Diagnósticos institucionais", "Notas e sínteses de evidências", "Apoio à decisão para gestores de programas"]}, {"t": "Desenvolvimento Institucional e Governança", "l": "Programas complexos dependem de várias instituições agindo em conjunto. Ajudamos a desenhar os acordos, papéis e rotinas que fazem essa colaboração durar.", "q": ["Quem lidera, quem financia e quem executa?", "Como os parceiros compartilham informações e decisões?", "Quais capacidades a organização precisa construir para sustentar o programa?"], "d": ["Modelos de parceria e governança", "Coordenação de programas com múltiplos atores", "Avaliação de capacidades organizacionais", "Rotinas de governança colaborativa"]}, {"t": "Aprendizagem e Desenvolvimento do Conhecimento", "l": "Capacidades duram quando as pessoas aprendem por meio do próprio trabalho. Desenhamos programas de aprendizagem ligados às tarefas reais de gestores de ecossistemas, lideranças institucionais e profissionais públicos.", "q": ["O que nossas equipes precisam saber para conduzir a próxima fase?", "Como preservar o que um programa aprendeu quando as pessoas mudam?"], "d": ["Academias de aprendizagem institucional", "Currículos de desenvolvimento profissional contínuo", "Desenho e facilitação de oficinas", "Curadoria e documentação do conhecimento"]}, {"t": "Transformação Digital e IA Aplicada", "l": "Instituições produzem mais conhecimento do que conseguem usar. Desenhamos arquiteturas de conhecimento e ferramentas apoiadas por IA que ajudam as equipes a encontrar evidências, mantendo o julgamento humano no centro.", "q": ["Onde o conhecimento institucional se perde hoje?", "Quais decisões se beneficiariam de acesso mais rápido a evidências?", "O que é seguro e útil automatizar?"], "d": ["Arquitetura e curadoria do conhecimento", "Busca e síntese de evidências assistidas por IA", "Protótipos de ferramentas de inteligência institucional", "Orientação para uma adoção responsável"]}];
+const X=[{"t": "Sistemas de Inovação e Desenvolvimento Produtivo", "l": "A inovação acontece em sistemas: empresas, universidades, governos e investidores que precisam se conectar. Ajudamos instituições a enxergar o sistema do qual fazem parte e a agir sobre seus elos mais frágeis.", "q": ["Quais conexões deste ecossistema estão ausentes ou frágeis?", "Onde empreendimentos de base científica podem encontrar um caminho até o mercado?", "O que uma estratégia de cluster deve priorizar nos próximos três anos?"], "d": ["Diagnósticos de ecossistemas e clusters", "Desenho de programas para empreendedorismo de base científica e deep tech", "Estratégias de competitividade de clusters", "Assessoria em políticas para agências de inovação e organizações de desenvolvimento"]}, {"t": "Estratégia, Desenho de Programas e Serviços", "l": "Boas políticas emperram quando o programa ao redor delas é difícil de usar. Desenhamos programas e serviços a partir da experiência de quem os opera e de quem é atendido por eles.", "q": ["Como transformar um objetivo de política em um programa que funcione na ponta?", "Em que ponto o serviço atual perde as pessoas?", "Quem precisa decidir o quê, e quando?"], "d": ["Arquitetura de programas e teoria da mudança", "Blueprints de serviço e jornadas de usuário", "Planos de governança e implementação", "Protótipos e pilotos antes da escala", "Identidade e comunicação do programa e plataformas digitais fáceis de usar (UX/UI)"]}, {"t": "Pesquisa, Avaliação e Inteligência", "l": "Decisões melhoram quando as evidências chegam a tempo e em formato utilizável. Combinamos pesquisa de campo e síntese de evidências para mostrar o que está funcionando, para quem e por quê.", "q": ["O que este programa está de fato mudando?", "Quais resultados vêm do programa e quais vêm do seu contexto?", "O que deve mudar no próximo ciclo?"], "d": ["Avaliações qualitativas e de métodos mistos", "Diagnósticos institucionais", "Notas e sínteses de evidências", "Apoio à decisão para gestores de programas"]}, {"t": "Desenvolvimento Institucional e Governança", "l": "Programas complexos dependem de várias instituições agindo em conjunto. Ajudamos a desenhar os acordos, papéis e rotinas que fazem essa colaboração durar.", "q": ["Quem lidera, quem financia e quem executa?", "Como os parceiros compartilham informações e decisões?", "Quais capacidades a organização precisa construir para sustentar o programa?"], "d": ["Modelos de parceria e governança", "Coordenação de programas com múltiplos atores", "Avaliação de capacidades organizacionais", "Rotinas de governança colaborativa"]}, {"t": "Aprendizagem e Desenvolvimento do Conhecimento", "l": "Capacidades duram quando as pessoas aprendem por meio do próprio trabalho. Desenhamos programas de aprendizagem ligados às tarefas reais de gestores de ecossistemas, lideranças institucionais e profissionais públicos.", "q": ["O que nossas equipes precisam saber para conduzir a próxima fase?", "Como preservar o que um programa aprendeu quando as pessoas mudam?"], "d": ["Academias de aprendizagem institucional", "Currículos de desenvolvimento profissional contínuo", "Desenho e facilitação de oficinas", "Curadoria e documentação do conhecimento"]}, {"t": "Transformação Digital e IA Aplicada", "l": "Instituições produzem mais conhecimento do que conseguem usar. Desenhamos arquiteturas de conhecimento e ferramentas apoiadas por IA que ajudam as equipes a encontrar evidências, mantendo o julgamento humano no centro.", "q": ["Onde o conhecimento institucional se perde hoje?", "Quais decisões se beneficiariam de acesso mais rápido a evidências?", "O que é seguro e útil automatizar?"], "d": ["Arquitetura e curadoria do conhecimento", "Busca e síntese de evidências assistidas por IA", "Protótipos de ferramentas de inteligência institucional", "Orientação para uma adoção responsável"]}];
 const dr=document.getElementById('drawer'),sc=document.getElementById('scrim'),body=document.getElementById('dr-body');
 let cur=0,opener=null;
 const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');

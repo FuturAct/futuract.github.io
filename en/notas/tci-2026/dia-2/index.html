@@ -412,6 +412,20 @@ nav.links a{white-space:nowrap}
 .field.field-poster{height:auto;clip-path:none;background:#200A68}
 .field-poster .hero-img{position:static;height:auto;object-fit:contain}
 .nt-open.nt-tall{min-height:clamp(640px,56vw,760px)}
+/* v13: banda da home como acesso ao indice de notas */
+.nt-band.nt-band-idx .wrap{grid-template-columns:1fr auto auto}
+.nt-band-idx .nt-thumbs{display:flex;gap:8px}
+.nt-band-idx .nt-thumbs a{display:block;border-radius:7px;outline-offset:2px;transition:transform .2s}
+.nt-band-idx .nt-thumbs a:hover{transform:translateY(-2px)}
+.nt-band-idx .nt-thumbs img{width:58px;aspect-ratio:4/3;object-fit:cover;border-radius:7px;display:block}
+@media (max-width:900px){.nt-band.nt-band-idx .wrap{grid-template-columns:1fr auto}.nt-band-idx .nt-thumbs{display:none}}
+/* v13: hero com a imagem de Sao Paulo e legenda sobreposta */
+.field.field-sp{height:clamp(260px,40vw,620px);clip-path:none;background:#200A68}
+.field-sp .hero-img{object-position:68% 50%}
+.field-sp::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(14,6,52,.84) 0%,rgba(14,6,52,.35) 34%,rgba(14,6,52,0) 58%);pointer-events:none}
+.field-sp .sp-cap{position:absolute;left:0;right:0;bottom:0;z-index:1;color:#fff;padding-bottom:clamp(16px,3vw,40px)}
+.field-sp .sp-cap small{display:block;font-size:var(--fs-label);font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--on-dark-muted);margin-bottom:6px}
+.field-sp .sp-cap span{display:block;font-family:var(--serif);font-size:clamp(1.15rem,2.4vw,1.9rem);line-height:1.2;max-width:24ch}
 </style>
 </head>
 <body>
@@ -431,7 +445,7 @@ nav.links a{white-space:nowrap}
       <a href="../../../../en/#founders">Founders</a>
       <a class="nt-mo" href="../../../../en/notas/">Notes</a><a class="nt-mo nt-mo-cta" href="../../../../en/#collaborate">Let's collaborate</a>
     </nav>
-    <div class="hdr-r"><a class="nt-navlink" href="../../../../en/notas/">Notes</a><nav class="lang" aria-label="Language"><a href="../../../../notas/tci-2026/dia-2/" hreflang="es" lang="es" title="Español">ES</a><a href="../../../../en/notas/tci-2026/dia-2/" hreflang="en" lang="en" title="English" aria-current="true">EN</a><a href="../../../../pt/notas/tci-2026/dia-2/" hreflang="pt-BR" lang="pt-BR" title="Português">PT</a></nav>
+    <div class="hdr-r"><a class="nt-navlink" href="../../../../en/notas/">Notes</a><nav class="lang" aria-label="Language"><a href="../../../../pt/notas/tci-2026/dia-2/" hreflang="pt-BR" lang="pt-BR" title="Português">PT</a><a href="../../../../en/notas/tci-2026/dia-2/" hreflang="en" lang="en" title="English" aria-current="true">EN</a><a href="../../../../notas/tci-2026/dia-2/" hreflang="es" lang="es" title="Español">ES</a></nav>
     <a class="btn btn-primary" href="../../../../en/#collaborate">Let's collaborate</a></div>
     <button class="nt-burger" type="button" aria-expanded="false" aria-controls="nt-links" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
